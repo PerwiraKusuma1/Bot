@@ -25,7 +25,7 @@ const {
 const moment = require("moment-timezone")
 const speed = require('performance-now')
 const { spawn, exec, execSync } = require("child_process")
-const ffmpeg = require('fluent-ffmpeg')
+const ffmpeg = require('heroku-buildpack-ffmpeg-latest')
 const twitterGetUrl = require("twitter-url-direct")
 const googleImage = require('g-i-s')
 const brainly = require('brainly-scraper')
